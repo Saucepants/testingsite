@@ -1,0 +1,74 @@
+/*main stylesheet*/
+/*justify-content: flex-end or flex-start(default) or center or space-around or space-between8?
+/*align-items: flex-start  or stretch*/
+/*	-webkit-flex-flow:column;
+	-webkit-flex-grow:0;
+	-webkit-flex-shrink:1;
+	-webkit-flex-basis:0 or auto;
+*/
+header footer{
+	height:100px;
+}
+body, header{
+	min-width:256px;
+}
+body, h1{
+	margin:0px;
+	padding:0px;
+
+}
+.default{
+
+}
+.flex{
+
+}
+header{
+	width:100%;
+	background-color:blue;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	margin:0px;
+	padding:25px 0px;
+}
+header p, header h1{
+
+}
+nav{
+
+}
+nav ul{
+	display:-webkit-flex;
+	-webkit-justify-content:space-around;
+	padding:0px 0px;
+}
+.li{
+	display:inline;
+	padding:0px 0px;
+}
+.page{
+	display:-webkit-flex;
+	min-height:435px;
+}
+
+article{
+	-webkit-flex:3 1 0;
+	padding-left:25px;
+	padding-right:10px;
+}
+aside{
+	-webkit-flex:2 1 0;
+	padding-right:25px;
+	padding-left:10px;
+}
+footer{
+	width:100%;
+	background-color:blue;
+	color:black;
+	font-weight:bold;
+	text-align:center;
+	margin:0px;
+	padding:25px 0px;
+}
+
